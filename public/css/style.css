@@ -8,3 +8,14 @@
     border-bottom: 0;
     border-left: .3em solid transparent;
 }
+
+.card .card-header button {
+    white-space: initial;
+    text-align: left;
+}
+
+.filter-card .btn-outline-primary:not(:disabled):not(.disabled):active,
+.filter-card .btn-outline-primary:not(:disabled):not(.disabled):hover {
+    color: #007bff!important;
+    background-color: transparent!important;
+}
